@@ -3,7 +3,8 @@ public class Main {
 
     public static void main(String[] args) {
         Studentmanager manager = new Studentmanager();
-
+        Student student= new Student(1, "John Doe", 20, "Computer Science", "john.doe@example.com");
+        student.displayStudent();
         
         Student s1 = new Student(
                 2,
